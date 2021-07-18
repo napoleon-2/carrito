@@ -36,7 +36,7 @@ const Producto = ({producto, carrito, agregarProducto,productos}) => {
                     type="button"
                     onClick={ () => eliminarProducto(id)}
                     >
-                    Eliminar        
+                    Eliminar  producto      
                     </button>
                 )
             }
@@ -47,4 +47,3 @@ const Producto = ({producto, carrito, agregarProducto,productos}) => {
  
 export default Producto;
 
-//47
